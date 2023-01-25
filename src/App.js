@@ -1,10 +1,10 @@
 import React from 'react'
-import ApiCall from './Components/ApiCall'
+import getMethodReact from './Components/getMethodReact'
 
 const App = () => {
     return (
         <div>
-            <ApiCall/>
+            <getMethodReact/>
         </div>
     )
 }

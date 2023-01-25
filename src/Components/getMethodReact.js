@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 
 
-const ApiCall = () => {
+const getMethodReact = () => {
 
     const [data, setData] = useState([]);
 
@@ -43,4 +43,4 @@ const ApiCall = () => {
     )
 }
 
-export default ApiCall
+export default getMethodReact;
