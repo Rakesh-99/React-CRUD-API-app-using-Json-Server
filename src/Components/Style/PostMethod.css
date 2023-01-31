@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: 1px solid red;
+}
+form input{
+    margin: 10px 10px;
+    padding: 6px 5px;
+    width: 250px;
+    transition: 0.3s;
+    border-radius: 3px;
+    border-color: #000;
+
+
+
+}
+form input:focus{
+    padding: 10px 9px;
+    transition: 0.4s;
+    border-radius: 2px;
+    width: 300px;
+    background-color: aliceblue;
+    border-color: #000;
+    outline: none;
+
+}
+form button{
+    padding: 10px 40px;
+    margin: 15px 0;
+    background-color: #000;
+    color: white;
+   border: none;
+   font-size: 15px;
+   border-radius: 5px;
+   
+
+}
+

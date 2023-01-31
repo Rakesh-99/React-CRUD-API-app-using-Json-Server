@@ -1,10 +1,13 @@
 import React from 'react'
-import getMethodReact from './Components/getMethodReact'
+import GetMethod from './Components/GetMethod';
+import PostMethod from './Components/PostMethod';
 
 const App = () => {
+
     return (
         <div>
-            <getMethodReact/>
+            <GetMethod />
+            
         </div>
     )
 }
